@@ -98,3 +98,5 @@ local function SHA256(String, Hash)
 	
 	return Hexadecimal(NumberToBytes(Hash[1], 4) .. NumberToBytes(Hash[2], 4) .. NumberToBytes(Hash[3], 4) .. NumberToBytes(Hash[4], 4) .. NumberToBytes(Hash[5], 4) .. NumberToBytes(Hash[6], 4) .. NumberToBytes(Hash[7], 4) .. NumberToBytes(Hash[8], 4))
 end
+
+return SHA256
